@@ -96,8 +96,8 @@ def logout(session):
 
 def main():
     session = requests.Session()
-    login(session)
-    # logout(session)
+    # login(session)
+    logout(session)
 
 if __name__ == '__main__':
     main()
