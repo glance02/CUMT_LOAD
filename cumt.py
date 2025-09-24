@@ -101,4 +101,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    time.sleep(1)  # 等待弹窗显示
+    # time.sleep(1)  # 等待弹窗显示
