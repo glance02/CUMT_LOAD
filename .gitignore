@@ -1,0 +1,17 @@
+# 忽略打包生成的文件夹和可执行文件
+dist/
+build/
+*.exe
+
+# 忽略 Nuitka/pyinstaller 生成的临时文件夹
+*.onefile-build/
+*.onefile-dist/
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo

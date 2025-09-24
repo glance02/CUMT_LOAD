@@ -6,9 +6,9 @@ import requests
 import re
 from winotify import Notification
 
-USERNAME = '08231719'
-PASSWORD = '20050807Lei'
-OPERATOR = '中国移动'
+USERNAME = ''#学号
+PASSWORD = ''#密码
+OPERATOR = ''#供应商
 
 # 兼容PyInstaller打包和源码运行
 def resource_path(relative_path):
