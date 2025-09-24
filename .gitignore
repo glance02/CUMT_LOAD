@@ -1,6 +1,7 @@
 # 忽略打包生成的文件夹和可执行文件
-dist/
-build/
+cumt.dist/
+cumt.build/
+cumt.onefile-build/
 *.exe
 
 # 忽略 Nuitka/pyinstaller 生成的临时文件夹
